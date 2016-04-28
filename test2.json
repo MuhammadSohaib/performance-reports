@@ -1,0 +1,1133 @@
+{
+    "data": {
+        "disk_usage": [
+            {
+                "used": 1677836,
+                "delta_used": 0,
+                "mounted_on": "/",
+                "filessystem": "/dev/sda4",
+                "usepercentage": "44%",
+                "size": 4062848
+            },
+            {
+                "used": 5932,
+                "delta_used": 0,
+                "mounted_on": "/boot",
+                "filessystem": "/dev/sda2",
+                "usepercentage": "6%",
+                "size": 122771
+            },
+            {
+                "used": 272,
+                "delta_used": 0,
+                "mounted_on": "/bootmgr",
+                "filessystem": "/dev/sda1",
+                "usepercentage": "1%",
+                "size": 121779
+            },
+            {
+                "used": 939,
+                "delta_used": 0,
+                "mounted_on": "/config",
+                "filessystem": "/dev/sda7",
+                "usepercentage": "1%",
+                "size": 499492
+            },
+            {
+                "used": 3695560,
+                "delta_used": 75756,
+                "mounted_on": "/var",
+                "filessystem": "/dev/sda8",
+                "usepercentage": "4%",
+                "size": 98952732
+            },
+            {
+                "used": 1056368,
+                "delta_used": 411284,
+                "mounted_on": "/data",
+                "filessystem": "/dev/sda11",
+                "usepercentage": "1%",
+                "size": 2998700708
+            },
+            {
+                "used": 1953924,
+                "delta_used": 1117380,
+                "mounted_on": "/data/db",
+                "filessystem": "/dev/sda9",
+                "usepercentage": "1%",
+                "size": 309505984
+            },
+            {
+                "used": 8390831,
+                "delta_used": 1604420,
+                "mounted_on": "",
+                "filessystem": "total",
+                "usepercentage": "1%",
+                "size": 3411966314
+            }
+        ],
+        "top_processes": [
+            {
+                "cpu_time": "   0:08:06",
+                "percentagecpu": 17.2,
+                "name": "sfTaskerNode",
+                "percentageusr": 15.6,
+                "pid": 2173,
+                "percentagesys": 1.6,
+                "resset": 280379,
+                "vm_size": 1620961,
+                "percentagewait": 0
+            },
+            {
+                "cpu_time": "   0:04:39",
+                "percentagecpu": 9.9,
+                "name": "sf_notify_server",
+                "percentageusr": 9.8,
+                "pid": 2167,
+                "percentagesys": 0.1,
+                "resset": 95215,
+                "vm_size": 752216,
+                "percentagewait": 0
+            },
+            {
+                "cpu_time": "   0:04:06",
+                "percentagecpu": 8.7,
+                "name": "app_processor",
+                "percentageusr": 8,
+                "pid": 2206,
+                "percentagesys": 0.8,
+                "resset": 109710,
+                "vm_size": 1139260,
+                "percentagewait": 0
+            },
+            {
+                "cpu_time": "   0:02:57",
+                "percentagecpu": 6.3,
+                "name": "/sbin/rsyslogd",
+                "percentageusr": 3.5,
+                "pid": 15146,
+                "percentagesys": 2.8,
+                "resset": 10695,
+                "vm_size": 185964,
+                "percentagewait": 0
+            },
+            {
+                "cpu_time": "   0:02:57",
+                "percentagecpu": 6.3,
+                "name": "/opt/fireeye/bin/rproxy /var/opt/tms/output/rproxy_fe.cfg",
+                "percentageusr": 3.9,
+                "pid": 7757,
+                "percentagesys": 2.3,
+                "resset": 138362,
+                "vm_size": 1226338,
+                "percentagewait": 0
+            },
+            {
+                "cpu_time": "   0:02:39",
+                "percentagecpu": 5.7,
+                "name": "sfServer",
+                "percentageusr": 3.5,
+                "pid": 2162,
+                "percentagesys": 2.2,
+                "resset": 78337,
+                "vm_size": 830635,
+                "percentagewait": 0
+            },
+            {
+                "cpu_time": "   0:00:59",
+                "percentagecpu": 2.1,
+                "name": "ktserver",
+                "percentageusr": 1.6,
+                "pid": 2158,
+                "percentagesys": 0.6,
+                "resset": 651482,
+                "vm_size": 3699440,
+                "percentagewait": 0
+            },
+            {
+                "cpu_time": "   0:00:35",
+                "percentagecpu": 1.3,
+                "name": "upgrade_server",
+                "percentageusr": 1,
+                "pid": 2160,
+                "percentagesys": 0.2,
+                "resset": 65289,
+                "vm_size": 968836,
+                "percentagewait": 0
+            },
+            {
+                "cpu_time": "   0:00:17",
+                "percentagecpu": 0.6,
+                "name": "rproxy",
+                "percentageusr": 0.4,
+                "pid": 2200,
+                "percentagesys": 0.2,
+                "resset": 6238,
+                "vm_size": 335220,
+                "percentagewait": 0
+            },
+            {
+                "cpu_time": "   0:00:05",
+                "percentagecpu": 0.2,
+                "name": "postgres: hxapp lighthouse [local] idle ",
+                "percentageusr": 0.2,
+                "pid": 24766,
+                "percentagesys": 0,
+                "resset": 544701,
+                "vm_size": 1139445,
+                "percentagewait": 0
+            },
+            {
+                "cpu_time": "   0:00:04",
+                "percentagecpu": 0.2,
+                "name": "postgres: hxapp lighthouse [local] idle ",
+                "percentageusr": 0.2,
+                "pid": 24344,
+                "percentagesys": 0,
+                "resset": 513133,
+                "vm_size": 1132266,
+                "percentagewait": 0
+            },
+            {
+                "cpu_time": "   0:00:04",
+                "percentagecpu": 0.2,
+                "name": "postgres: hxapp lighthouse [local] idle ",
+                "percentageusr": 0.2,
+                "pid": 24402,
+                "percentagesys": 0,
+                "resset": 517018,
+                "vm_size": 1132092,
+                "percentagewait": 0
+            },
+            {
+                "cpu_time": "   0:00:04",
+                "percentagecpu": 0.2,
+                "name": "postgres: hxapp lighthouse [local] idle ",
+                "percentageusr": 0.2,
+                "pid": 24768,
+                "percentagesys": 0,
+                "resset": 504396,
+                "vm_size": 1131248,
+                "percentagewait": 0
+            },
+            {
+                "cpu_time": "   0:00:04",
+                "percentagecpu": 0.2,
+                "name": "postgres: hxapp lighthouse [local] idle ",
+                "percentageusr": 0.2,
+                "pid": 26652,
+                "percentagesys": 0,
+                "resset": 513041,
+                "vm_size": 1131884,
+                "percentagewait": 0
+            },
+            {
+                "cpu_time": "   0:00:04",
+                "percentagecpu": 0.2,
+                "name": "postgres: hxapp lighthouse [local] UPDATE ",
+                "percentageusr": 0.2,
+                "pid": 24765,
+                "percentagesys": 0,
+                "resset": 510394,
+                "vm_size": 1132316,
+                "percentagewait": 0
+            },
+            {
+                "cpu_time": "   0:00:04",
+                "percentagecpu": 0.2,
+                "name": "postgres: hxapp lighthouse [local] idle in transaction",
+                "percentageusr": 0.2,
+                "pid": 26661,
+                "percentagesys": 0,
+                "resset": 513170,
+                "vm_size": 1135538,
+                "percentagewait": 0
+            },
+            {
+                "cpu_time": "   0:00:04",
+                "percentagecpu": 0.2,
+                "name": "postgres: hxapp lighthouse [local] idle ",
+                "percentageusr": 0.2,
+                "pid": 15084,
+                "percentagesys": 0,
+                "resset": 529857,
+                "vm_size": 1132390,
+                "percentagewait": 0
+            },
+            {
+                "cpu_time": "   0:00:04",
+                "percentagecpu": 0.2,
+                "name": "postgres: hxapp lighthouse [local] idle ",
+                "percentageusr": 0.2,
+                "pid": 24347,
+                "percentagesys": 0,
+                "resset": 533561,
+                "vm_size": 1136739,
+                "percentagewait": 0
+            },
+            {
+                "cpu_time": "   0:00:04",
+                "percentagecpu": 0.2,
+                "name": "postgres: hxapp lighthouse [local] idle ",
+                "percentageusr": 0.2,
+                "pid": 26656,
+                "percentagesys": 0,
+                "resset": 501812,
+                "vm_size": 1132010,
+                "percentagewait": 0
+            },
+            {
+                "cpu_time": "   0:00:04",
+                "percentagecpu": 0.2,
+                "name": "postgres: hxapp lighthouse [local] idle ",
+                "percentageusr": 0.2,
+                "pid": 26658,
+                "percentagesys": 0,
+                "resset": 527657,
+                "vm_size": 1137281,
+                "percentagewait": 0
+            },
+            {
+                "cpu_time": "   0:00:04",
+                "percentagecpu": 0.2,
+                "name": "postgres: hxapp lighthouse [local] idle ",
+                "percentageusr": 0.2,
+                "pid": 24769,
+                "percentagesys": 0,
+                "resset": 504442,
+                "vm_size": 1132166,
+                "percentagewait": 0
+            },
+            {
+                "cpu_time": "   0:00:04",
+                "percentagecpu": 0.2,
+                "name": "postgres: hxapp lighthouse [local] idle ",
+                "percentageusr": 0.1,
+                "pid": 24348,
+                "percentagesys": 0,
+                "resset": 505859,
+                "vm_size": 1131944,
+                "percentagewait": 0
+            },
+            {
+                "cpu_time": "   0:00:04",
+                "percentagecpu": 0.2,
+                "name": "postgres: hxapp lighthouse [local] idle ",
+                "percentageusr": 0.1,
+                "pid": 24771,
+                "percentagesys": 0,
+                "resset": 509304,
+                "vm_size": 1132151,
+                "percentagewait": 0
+            },
+            {
+                "cpu_time": "   0:00:04",
+                "percentagecpu": 0.2,
+                "name": "postgres: hxapp lighthouse [local] idle in transaction",
+                "percentageusr": 0.1,
+                "pid": 26666,
+                "percentagesys": 0,
+                "resset": 528871,
+                "vm_size": 1134971,
+                "percentagewait": 0
+            },
+            {
+                "cpu_time": "   0:00:04",
+                "percentagecpu": 0.2,
+                "name": "postgres: hxapp lighthouse [local] idle ",
+                "percentageusr": 0.1,
+                "pid": 26067,
+                "percentagesys": 0,
+                "resset": 496705,
+                "vm_size": 1132090,
+                "percentagewait": 0
+            }
+        ],
+        "disk": {
+            "disk_percentagebusy": 21.6,
+            "partition": "",
+            "disk_throughput_raw": 9644.889417989418,
+            "name": "",
+            "disk_throughput": 9644.9,
+            "disk_transfer_size": 14.3,
+            "disk_write": 9644.9,
+            "disk_read": 0,
+            "disk_space_used": 1604420,
+            "disk_transfersslashs": 696
+        },
+        "report_header": {
+            "date_time_created": "2016-03-21T16:40:42+00:00",
+            "date_time_created_formatted": "2016-03-21 16:40:42 UTC",
+            "logfile_identifier": "fireeye-692bc8_160321_1430.nmon"
+        },
+        "per_cpu": [
+            {
+                "cpu_number": 1,
+                "percentagecpu": 68.2,
+                "percentageusr": 54.1,
+                "percentagesys": 14.1,
+                "percentagewait": 0.9
+            },
+            {
+                "cpu_number": 2,
+                "percentagecpu": 65.6,
+                "percentageusr": 54.2,
+                "percentagesys": 11.4,
+                "percentagewait": 0.9
+            },
+            {
+                "cpu_number": 3,
+                "percentagecpu": 65.2,
+                "percentageusr": 54.5,
+                "percentagesys": 10.7,
+                "percentagewait": 1.3
+            },
+            {
+                "cpu_number": 4,
+                "percentagecpu": 63.4,
+                "percentageusr": 53.2,
+                "percentagesys": 10.2,
+                "percentagewait": 1.1
+            },
+            {
+                "cpu_number": 5,
+                "percentagecpu": 63.1,
+                "percentageusr": 52.8,
+                "percentagesys": 10.4,
+                "percentagewait": 2.7
+            },
+            {
+                "cpu_number": 6,
+                "percentagecpu": 61.2,
+                "percentageusr": 51.3,
+                "percentagesys": 10,
+                "percentagewait": 2.3
+            },
+            {
+                "cpu_number": 7,
+                "percentagecpu": 62.6,
+                "percentageusr": 52.4,
+                "percentagesys": 10.2,
+                "percentagewait": 2.8
+            },
+            {
+                "cpu_number": 8,
+                "percentagecpu": 60.5,
+                "percentageusr": 50.6,
+                "percentagesys": 9.9,
+                "percentagewait": 2.4
+            }
+        ],
+        "per_network_interface": [
+            {
+                "write_kb": 1246.3,
+                "read_kb": 2361.4,
+                "name": "ether1"
+            },
+            {
+                "write_kb": 0,
+                "read_kb": 0,
+                "name": "ether2"
+            },
+            {
+                "write_kb": 8007.1,
+                "read_kb": 8007.1,
+                "name": "lo"
+            }
+        ],
+        "network": {
+            "read_kb": 2361.4,
+            "throughput_read_plus_write": 3607.7,
+            "write_kb": 1246.3
+        },
+        "title": "Performance Workload Report 2016-03-21 16:40:42",
+        "system": {
+            "run_queue": 8.8,
+            "process_switches": 144108
+        },
+        "swap": {
+            "swap_total": 32767,
+            "swap_out": 0,
+            "swap_used": 0,
+            "swap_in": 0,
+            "swap_free": 32767
+        },
+        "memory": {
+            "active": 10045,
+            "memfree": 51120,
+            "inactive": 2345,
+            "capacity": 64
+        },
+        "workload_composition": {
+            "poll_interval_fast": 60,
+            "poll_interval_normal": 600,
+            "workload_scenariohash1": {
+                "avg_agent_processing_time": 0.16,
+                "api": "NONE",
+                "avg_agent_payload": 2,
+                "scenario_name": "Hit Storm B_2.4 - 100K Agents",
+                "audits": 100000,
+                "avg_script_size": 32
+            },
+            "sysinfo_interval": 4,
+            "triage_task_limit": 100,
+            "endpoints": 100000
+        },
+        "per_disk": [
+            {
+                "disk_percentagebusy": 21.6,
+                "disk_throughput": 9644.9,
+                "disk_throughput_raw": 9644.889417989418,
+                "name": "sda",
+                "partition": "",
+                "disk_transfer_size": 14.3,
+                "disk_write": 9644.9,
+                "disk_read": 0,
+                "disk_space_used": 1604420,
+                "disk_transfersslashs": 696
+            },
+            {
+                "disk_percentagebusy": 0,
+                "disk_throughput": 0,
+                "disk_throughput_raw": 0,
+                "name": "",
+                "partition": "sda1",
+                "disk_transfer_size": 0,
+                "disk_write": 0,
+                "disk_read": 0,
+                "disk_space_used": 1604420,
+                "disk_transfersslashs": 0
+            },
+            {
+                "disk_percentagebusy": 0,
+                "disk_throughput": 0,
+                "disk_throughput_raw": 0,
+                "name": "",
+                "partition": "sda2",
+                "disk_transfer_size": 0,
+                "disk_write": 0,
+                "disk_read": 0,
+                "disk_space_used": 1604420,
+                "disk_transfersslashs": 0
+            },
+            {
+                "disk_percentagebusy": 0,
+                "disk_throughput": 0,
+                "disk_throughput_raw": 0,
+                "name": "",
+                "partition": "sda3",
+                "disk_transfer_size": 0,
+                "disk_write": 0,
+                "disk_read": 0,
+                "disk_space_used": 1604420,
+                "disk_transfersslashs": 0
+            },
+            {
+                "disk_percentagebusy": 0,
+                "disk_throughput": 0,
+                "disk_throughput_raw": 0,
+                "name": "",
+                "partition": "sda4",
+                "disk_transfer_size": 0,
+                "disk_write": 0,
+                "disk_read": 0,
+                "disk_space_used": 1604420,
+                "disk_transfersslashs": 0
+            },
+            {
+                "disk_percentagebusy": 0,
+                "disk_throughput": 0,
+                "disk_throughput_raw": 0,
+                "name": "",
+                "partition": "sda5",
+                "disk_transfer_size": 0,
+                "disk_write": 0,
+                "disk_read": 0,
+                "disk_space_used": 1604420,
+                "disk_transfersslashs": 0
+            },
+            {
+                "disk_percentagebusy": 0,
+                "disk_throughput": 0,
+                "disk_throughput_raw": 0,
+                "name": "",
+                "partition": "sda6",
+                "disk_transfer_size": 0,
+                "disk_write": 0,
+                "disk_read": 0,
+                "disk_space_used": 1604420,
+                "disk_transfersslashs": 0
+            },
+            {
+                "disk_percentagebusy": 0,
+                "disk_throughput": 0,
+                "disk_throughput_raw": 0,
+                "name": "",
+                "partition": "sda7",
+                "disk_transfer_size": 0,
+                "disk_write": 0,
+                "disk_read": 0,
+                "disk_space_used": 1604420,
+                "disk_transfersslashs": 0
+            },
+            {
+                "disk_percentagebusy": 0.7,
+                "disk_throughput": 68.4,
+                "disk_throughput_raw": 68.38730158730158,
+                "name": "",
+                "partition": "sda8",
+                "disk_transfer_size": 27.9,
+                "disk_write": 68.4,
+                "disk_read": 0,
+                "disk_space_used": 1604420,
+                "disk_transfersslashs": 2
+            },
+            {
+                "disk_percentagebusy": 20.2,
+                "disk_throughput": 4097.8,
+                "disk_throughput_raw": 4097.792592592592,
+                "name": "",
+                "partition": "sda9",
+                "disk_transfer_size": 13.9,
+                "disk_write": 4097.8,
+                "disk_read": 0,
+                "disk_space_used": 1604420,
+                "disk_transfersslashs": 291
+            },
+            {
+                "disk_percentagebusy": 0,
+                "disk_throughput": 0,
+                "disk_throughput_raw": 0,
+                "name": "",
+                "partition": "sda10",
+                "disk_transfer_size": 0,
+                "disk_write": 0,
+                "disk_read": 0,
+                "disk_space_used": 1604420,
+                "disk_transfersslashs": 0
+            },
+            {
+                "disk_percentagebusy": 9.8,
+                "disk_throughput": 5478.7,
+                "disk_throughput_raw": 5478.7095238095235,
+                "name": "",
+                "partition": "sda11",
+                "disk_transfer_size": 24.8,
+                "disk_write": 5478.7,
+                "disk_read": 0,
+                "disk_space_used": 1604420,
+                "disk_transfersslashs": 402
+            },
+            {
+                "disk_percentagebusy": 0,
+                "disk_throughput": 0,
+                "disk_throughput_raw": 0,
+                "name": "",
+                "partition": "dm-0",
+                "disk_transfer_size": 0,
+                "disk_write": 0,
+                "disk_read": 0,
+                "disk_space_used": 1604420,
+                "disk_transfersslashs": 0
+            }
+        ],
+        "results_summary": {
+            "network_throughput": 3607.7,
+            "disk_percentagebusy": 21.6,
+            "percentagecpu": 63.7,
+            "disk_throughput": 9644,
+            "disk_transfersslashhr": 696,
+            "tasksslashhr": null,
+            "disk_space_used": 1604420,
+            "total_tasks": null
+        },
+        "description": "Machine generated workload repository report of the fireeye-692bc8_160321_1430.nmon log file (2016-03-21 16:40:42)",
+        "enterprise_search_data": null,
+        "hit_storm_data": [
+            {
+                "hits_per_hr": 127021,
+                "workload_duration_sec": "0:47:14",
+                "first_processing_time_sec": "0:00:05",
+                "max_processing_time_sec": "0:15:40",
+                "num_hits": 100000,
+                "hit_stddev_sec": "0:05:16",
+                "avg_processing_time_sec": "0:10:39",
+                "hits_per_sec": 35.3,
+                "min_processing_time_sec": "0:00:03",
+                "condition_id": "o66PiaCGJKhjU2j9ybD4YA=="
+            }
+        ],
+        "performance_test_summary": {
+            "start_time": {
+                "raw": 1458575186,
+                "formatted": "2016-03-21 15:46:26"
+            },
+            "hostname": "fireeye-692bc9",
+            "test_description": "Hit Storm B_2.4, 110K hits arrive in quick succession and are processed gracefully",
+            "end_time": {
+                "raw": 1458578020,
+                "formatted": "2016-03-21 16:33:40"
+            },
+            "elapsed": {
+                "raw": 2834,
+                "formatted": "   0:47:14"
+            }
+        },
+        "top_processes_count": 25,
+        "navaro_ir_data": null,
+        "navaro_data": null,
+        "fireeye_processes": [
+            {
+                "cpu_time": "   0:08:06",
+                "percentagecpu": 17.2,
+                "name": "sfTaskerNode",
+                "percentageusr": 15.6,
+                "pid": 2173,
+                "percentagesys": 1.6,
+                "resset": 280379,
+                "vm_size": 1620961,
+                "percentagewait": 0
+            },
+            {
+                "cpu_time": "   0:04:39",
+                "percentagecpu": 9.9,
+                "name": "sf_notify_server",
+                "percentageusr": 9.8,
+                "pid": 2167,
+                "percentagesys": 0.1,
+                "resset": 95215,
+                "vm_size": 752216,
+                "percentagewait": 0
+            },
+            {
+                "cpu_time": "   0:04:06",
+                "percentagecpu": 8.7,
+                "name": "app_processor",
+                "percentageusr": 8,
+                "pid": 2206,
+                "percentagesys": 0.8,
+                "resset": 109710,
+                "vm_size": 1139260,
+                "percentagewait": 0
+            },
+            {
+                "cpu_time": "   0:02:39",
+                "percentagecpu": 5.7,
+                "name": "sfServer",
+                "percentageusr": 3.5,
+                "pid": 2162,
+                "percentagesys": 2.2,
+                "resset": 78337,
+                "vm_size": 830635,
+                "percentagewait": 0
+            },
+            {
+                "cpu_time": "   0:00:59",
+                "percentagecpu": 2.1,
+                "name": "ktserver",
+                "percentageusr": 1.6,
+                "pid": 2158,
+                "percentagesys": 0.6,
+                "resset": 651482,
+                "vm_size": 3699440,
+                "percentagewait": 0
+            },
+            {
+                "cpu_time": "   0:00:35",
+                "percentagecpu": 1.3,
+                "name": "upgrade_server",
+                "percentageusr": 1,
+                "pid": 2160,
+                "percentagesys": 0.2,
+                "resset": 65289,
+                "vm_size": 968836,
+                "percentagewait": 0
+            },
+            {
+                "cpu_time": "   0:00:17",
+                "percentagecpu": 0.6,
+                "name": "rproxy",
+                "percentageusr": 0.4,
+                "pid": 2200,
+                "percentagesys": 0.2,
+                "resset": 6238,
+                "vm_size": 335220,
+                "percentagewait": 0
+            },
+            {
+                "cpu_time": "   0:00:01",
+                "percentagecpu": 0.1,
+                "name": "Lighthouse",
+                "percentageusr": 0.1,
+                "pid": 7759,
+                "percentagesys": 0,
+                "resset": 102785,
+                "vm_size": 1107142,
+                "percentagewait": 0
+            },
+            {
+                "cpu_time": "   0:00:00",
+                "percentagecpu": 0,
+                "name": "sf_certserver",
+                "percentageusr": 0,
+                "pid": 2170,
+                "percentagesys": 0,
+                "resset": 72024,
+                "vm_size": 858436,
+                "percentagewait": 0
+            },
+            {
+                "cpu_time": "   0:00:00",
+                "percentagecpu": 0,
+                "name": "pkisvc",
+                "percentageusr": 0,
+                "pid": 2196,
+                "percentagesys": 0,
+                "resset": 42206,
+                "vm_size": 1001821,
+                "percentagewait": 0
+            }
+        ],
+        "system_details": {
+            "product_release": "HX (HX) 3.1.0.446009",
+            "build_arch": "x86_64",
+            "product_model": "FireEyeHX4403",
+            "cpus": 8,
+            "sockets": 1,
+            "cpu_clock_speed": 3.2,
+            "memory": 64,
+            "cores": 4,
+            "model": "AMD Opteron(tm) Processor 6329                 ",
+            "os": "Linux,3.10.53,#1 SMP PREEMPT Tue Mar 8 12:51:17 PST 2016,x86_64",
+            "drive_capacity": 3599
+        },
+        "cpu_all": {
+            "percentagesystem": 10.8,
+            "percentagecpu": 63.7,
+            "percentagewait": 1.8,
+            "percentageuser": 52.9
+        }
+    },
+    "schema": {
+        "performance_test_summary": {
+            "title": "Performance Test Summary",
+            "type": "key_value_table",
+            "properties": {
+                "test_description": {
+                    "title": "Test Description",
+                    "type": "string"
+                },
+                "hostname": {
+                    "title": "Hostname",
+                    "type": "string"
+                },
+                "start_time": {
+                    "title": "Start Time",
+                    "type": "datetime"
+                },
+                "end_time": {
+                    "title": "End Time",
+                    "type": "datetime"
+                },
+                "elapsed": {
+                    "title": "Elapsed [hh:mm:ss]",
+                    "type": "time"
+                }
+            }
+        },
+        "system_details": {
+            "title": "System Details",
+            "type": "key_value_table",
+            "properties": {
+                "product_model": {
+                    "title": "Product Model",
+                    "type": "string"
+                },
+                "product_release": {
+                    "title": "Product Release",
+                    "type": "string"
+                },
+                "build_arch": {
+                    "title": "Build Arch",
+                    "type": "string"
+                },
+                "os": {
+                    "title": "OS",
+                    "type": "string"
+                },
+                "sockets": {
+                    "title": "Sockets",
+                    "type": "integer"
+                },
+                "cores": {
+                    "title": "Cores",
+                    "type": "integer"
+                },
+                "cpus": {
+                    "title": "CPUs",
+                    "type": "integer"
+                },
+                "model": {
+                    "title": "Model",
+                    "type": "string"
+                },
+                "cpu_clock_speed": {
+                    "title": "CPU Clock Speed [GHz]",
+                    "type": "float"
+                },
+                "memory": {
+                    "title": "Memory [GB]",
+                    "type": "float"
+                },
+                "drive_capacity": {
+                    "title": "Drive Capacity [GB]",
+                    "type": "float"
+                }
+            }
+        },
+        "workload_composition": {
+            "title": "Workload Composition",
+            "type": "key_value_table",
+            "properties": {
+                "endpoints": {
+                    "title": "Endpoints",
+                    "type": "integer"
+                },
+                "poll_interval_fast": {
+                    "title": "Fast Poll Interval [s]",
+                    "type": "integer"
+                },
+                "poll_interval_normal": {
+                    "title": "Normal Poll Interval [s]",
+                    "type": "integer"
+                },
+                "sysinfo_interval": {
+                    "title": "SysInfo Interval [hr]",
+                    "type": "integer"
+                },
+                "triage_task_limit": {
+                    "title": "Triage Task-Limit",
+                    "type": "integer"
+                },
+                "workload_scenariohash1": {
+                    "title": "Workload Scenario #1",
+                    "type": "key_value_table",
+                    "properties": {
+                        "scenario_name": {
+                            "title": "Scenario Name",
+                            "type": "string"
+                        },
+                        "audits": {
+                            "title": "Audits",
+                            "type": "integer"
+                        },
+                        "api": {
+                            "title": "API",
+                            "type": "string"
+                        },
+                        "avg_script_size": {
+                            "title": "Avg Script Size [KB]",
+                            "type": "integer"
+                        },
+                        "avg_agent_payload": {
+                            "title": "Avg Agent Payload [KB]",
+                            "type": "integer"
+                        },
+                        "avg_agent_processing_time": {
+                            "title": "Avg Agent Processing Time [min]",
+                            "type": "float"
+                        }
+                    }
+                }
+            }
+        },
+        "results_summary": {
+            "title": "Results Summary",
+            "type": "key_value_table",
+            "properties": {
+                "percentagecpu": {
+                    "title": "%CPU",
+                    "type": "float"
+                },
+                "disk_percentagebusy": {
+                    "title": "Disk %Busy",
+                    "type": "float"
+                },
+                "disk_transfersslashhr": {
+                    "title": "Disk Transfers/s",
+                    "type": "integer"
+                },
+                "disk_throughput": {
+                    "title": "Disk Throughput [KB/s]",
+                    "type": "integer"
+                },
+                "disk_space_used": {
+                    "title": "Disk Space Used [KB]",
+                    "type": "integer"
+                },
+                "network_throughput": {
+                    "title": "Network Throughput [KB/s]",
+                    "type": "integer"
+                }
+            }
+        },
+        "hit_storm_data": {
+            "title": "Hit Storm Summary",
+            "type": "table",
+            "properties": {}
+        },
+        "top_processes": {
+            "title": "Top {{ num_rows }} Processes",
+            "type": "table",
+            "properties": {}
+        },
+        "cpu_all": {
+            "title": "CPU ALL",
+            "type": "key_value_table",
+            "properties": {
+                "percentagecpu": {
+                    "title": "%CPU",
+                    "type": "float"
+                },
+                "percentageuser": {
+                    "title": "%User",
+                    "type": "float"
+                },
+                "percentagesystem": {
+                    "title": "%System",
+                    "type": "float"
+                },
+                "percentagewait": {
+                    "title": "%Wait",
+                    "type": "float"
+                }
+            }
+        },
+        "per_cpu": {
+            "title": "Per CPU",
+            "type": "table",
+            "properties": {}
+        },
+        "disk": {
+            "title": "Disk",
+            "type": "key_value_table",
+            "properties": {
+                "disk_percentagebusy": {
+                    "title": "Disk %Busy",
+                    "type": "float"
+                },
+                "disk_transfersslashs": {
+                    "title": "Disk Transfers/s",
+                    "type": "integer"
+                },
+                "disk_throughput": {
+                    "title": "Disk Throughput [KB/s]",
+                    "type": "float"
+                },
+                "disk_write": {
+                    "title": "Disk Write [KB/s]",
+                    "type": "float"
+                },
+                "disk_read": {
+                    "title": "Disk Read [KB/s]",
+                    "type": "float"
+                },
+                "disk_transfer_size": {
+                    "title": "Disk Transfer Size [KB]",
+                    "type": "float"
+                }
+            }
+        },
+        "per_disk": {
+            "title": "Per Disk",
+            "type": "table",
+            "properties": {}
+        },
+        "memory": {
+            "title": "Memory",
+            "type": "key_value_table",
+            "properties": {
+                "active": {
+                    "title": "Active [MB]",
+                    "type": "integer"
+                },
+                "inactive": {
+                    "title": "Inactive [MB]",
+                    "type": "integer"
+                },
+                "memfree": {
+                    "title": "Memfree [MB]",
+                    "type": "integer"
+                }
+            }
+        },
+        "network": {
+            "title": "Network",
+            "type": "key_value_table",
+            "properties": {
+                "throughput_read_plus_write": {
+                    "title": "Throughput (Read+Write)",
+                    "type": "float"
+                },
+                "read_kb": {
+                    "title": "Read [KB/s]",
+                    "type": "float"
+                },
+                "write_kb": {
+                    "title": "Write [KB/s]",
+                    "type": "float"
+                }
+            }
+        },
+        "per_network_interface": {
+            "title": "Per Network Interface",
+            "type": "table",
+            "properties": {}
+        },
+        "system": {
+            "title": "System",
+            "type": "key_value_table",
+            "properties": {
+                "run_queue": {
+                    "title": "Run Queue",
+                    "type": "float"
+                },
+                "process_switches": {
+                    "title": "Process Switches",
+                    "type": "integer"
+                }
+            }
+        },
+        "swap": {
+            "title": "Swap",
+            "type": "key_value_table",
+            "properties": {
+                "swap_total": {
+                    "title": "Swap Total [MB]",
+                    "type": "integer"
+                },
+                "swap_used": {
+                    "title": "Swap Used [MB]",
+                    "type": "integer"
+                },
+                "swap_free": {
+                    "title": "Swap Free [MB]",
+                    "type": "integer"
+                },
+                "swap_in": {
+                    "title": "Swap In [Pages/s]",
+                    "type": "float"
+                },
+                "swap_out": {
+                    "title": "Swap Out [Pages/s]",
+                    "type": "float"
+                }
+            }
+        },
+        "disk_usage": {
+            "title": "Disk Usage",
+            "type": "table",
+            "properties": {}
+        }
+    }
+}
